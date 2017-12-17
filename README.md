@@ -13,7 +13,7 @@ yarn add -D postcss-icon.cssicon
 
 ## Use
 ```js
-const postcssIcon = require('postcss');
+const postcss = require('postcss');
 const postcssIcon = require('postcss-icon');
 const dataCssicon = require('postcss-icon.cssicon');
 postcss(
