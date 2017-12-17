@@ -4,6 +4,13 @@ Icons data for [postcss-icon plugin](https://github.com/retyui/postcss-icon)
 
 Based on [cssicon.space](http://cssicon.space)
 
+## Install
+```bash
+npm install -D postcss-icon.cssicon
+# or
+yarn add -D postcss-icon.cssicon
+```
+
 ## Use
 ```js
 const postcssIcon = require('postcss');
