@@ -4,6 +4,8 @@ Icons data for [postcss-icon plugin](https://github.com/retyui/postcss-icon)
 
 Based on [cssicon.space](http://cssicon.space)
 
+![cssicon](https://raw.githubusercontent.com/retyui/postcss-icon.cssicon/master/retyui.github.io_postcss-icon_cssicon.png)
+
 ## Install
 ```bash
 npm install -D postcss-icon.cssicon
