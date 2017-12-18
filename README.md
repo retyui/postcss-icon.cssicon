@@ -13,7 +13,7 @@ yarn add -D postcss-icon.cssicon
 
 ## Use
 ```js
-const postcss = require('postcss');
+const postcss     = require('postcss');
 const postcssIcon = require('postcss-icon');
 const dataCssicon = require('postcss-icon.cssicon');
 postcss(
@@ -22,9 +22,9 @@ postcss(
 		data: dataCssicon
 	})
 ).process(`
-.custom-selector{ @icon: cssicon-search; } /* `cssicon-` is Prefix , `search` is name Icon*/
+.custom-selector{ @icon: cssicon-search; } /* 'cssicon-' is Prefix , 'search' is name Icon*/
 /* or */
-.custom-selector{ @icon cssicon-search; }
+.custom-selector2{ @icon cssicon-search; }
 `).then(({css,messages}) => {
 	console.log(css);
 	messages
