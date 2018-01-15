@@ -1,6 +1,6 @@
 {
   "name": "postcss-icon.cssicon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "cssicon.js",
   "repository": "https://github.com/retyui/postcss-icon.cssicon",
   "author": "retyui <vamnemne@gmail.com>",
